@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    color: blueviolet;
+}
+
+.box {
+   border: 5px solid burlywood;
+}
